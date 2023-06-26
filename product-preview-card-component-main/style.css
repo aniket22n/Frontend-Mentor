@@ -1,0 +1,206 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.attribution {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+
+/*Design for Deskstop */
+
+@media (min-width: 376px){
+    /* Designing */
+.main{
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+    width: 535px;
+    height: 402px;
+    left: 50%;
+    top: 50%;
+    margin-left: -267.5px;
+    margin-top: -201px;
+    border-radius: 3%;
+}
+
+img[alt="desktop-image"]{
+    position:absolute;
+    height: 100%;
+    width: 50%;
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+}
+
+.addtocart{
+    display:block;
+    padding:0.2em 0.5em 0.2em 0.5em;
+    border-radius:5px;
+    border:none;
+    font-size:2em;
+    position:relative;
+    background: rgb(2, 70, 2);
+    height:1.4em;
+    width: 6.5em;
+    top: 0.2em;
+    }
+
+    .button-text {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 14px;
+    }
+        img[alt="mobile-image"]{
+            display: none;
+        }
+        /* text */
+        .text {
+            position:absolute;
+            width: 39%;
+            left: 50%;
+            margin: 29px 29px 25px 29px;
+        }
+    .text-perfume {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        font-size: 0.65em;
+        margin: 0;
+    }
+
+    .text-heading {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 1.75em;
+        padding: 0%;
+        margin-bottom: 24px;
+        margin-top: 20px;
+        line-height: 1;
+    }
+
+    .text-description {
+        margin: 0%;
+        padding: 0%;
+        color: hsl(228, 12%, 48%);
+        font-size: .9em;;
+        font-family: 'Outfit', sans-serif;
+        line-height: 1.5em;
+    }
+
+    .price {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 1.75em;
+        color: rgb(2, 104, 2);
+    }
+
+    .mrp{
+        text-decoration-line: line-through;
+        margin: 0;
+        color: hsl(228, 12%, 48%);
+        position: relative;
+        bottom: 0.5em;
+        left: 1em;
+        font-size: 0.8em;
+    }
+}
+
+/* Design for Mobile */
+
+@media (max-width: 375px) {
+    .main{
+        position: absolute;
+        background-color: hsl(0, 0%, 100%);
+        width: 267.5px;
+        height: 460px;
+        left: 50%;
+        top: 50%;
+        margin-left: -137.75px;
+        margin-top: -201px;
+        border-radius: 3%;
+    }
+
+    img[alt="desktop-image"] {
+        display: none;
+    }
+    img[alt="mobile-image"]{
+        position:absolute;
+        top: 0;
+        width: 100%;
+        height: 40%;
+        border-top-right-radius: 3%;
+        border-top-left-radius: 3%;
+    }
+    .text {
+        position:absolute;
+        top:40%;
+        margin: 15px 15px 15px 15px;
+    }
+
+    .text-perfume {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        font-size: 0.65em;
+        margin: 0;
+    }
+    
+    .text-heading {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 1.65em;
+        padding: 0%;
+        margin: 10px 0 10px 0;
+        line-height: 1;
+    }
+    
+    .text-description {
+        margin: 0%;
+        padding: 0%;
+        color: hsl(228, 12%, 48%);
+        font-size: .8em;;
+        font-family: 'Outfit', sans-serif;
+        line-height: 1.35em;
+    }
+    .price-tag{
+        margin: 10px 0 0 0;
+    }
+    
+    .price {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: rgb(2, 104, 2);
+    }
+    
+    .mrp{
+        text-decoration-line: line-through;
+        margin: 0;
+        color: hsl(228, 12%, 48%);
+        position: relative;
+        bottom: 0.5em;
+        left: 1em;
+        font-size: 0.8em;
+    }
+    .addtocart{
+        display:block;
+        padding:0.2em 0.5em 0.2em 0.5em;
+        border-radius:5px;
+        border:none;
+        font-size:2em;
+        position:relative;
+        background: rgb(2, 70, 2);
+        height:1.2em;
+        width: 100%;
+        top: 0.5em;
+    }
+    
+    .button-text {
+        color: white;
+        font-family: 'Outfit', sans-serif;
+        font-size: 14px;
+    }
+
+}
